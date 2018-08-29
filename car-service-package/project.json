@@ -1,0 +1,24 @@
+{
+    "guid": "car-service-package",
+    "repository": {
+        "type": "git",
+        "branch": "master",
+        "url": "https://github.com/promart-io/applications-car-service-package.git"
+    },
+    "dependencies": [{
+        "guid": "sample-v3-car-service-bookings",
+        "url": "https://github.com/dirigiblelabs/sample-v3-car-service-bookings.git",
+        "type": "git",
+        "branch": "master"
+    }, {
+        "guid": "sample-v3-car-service-bookings-extension",
+        "url": "https://github.com/dirigiblelabs/sample-v3-car-service-bookings-extension.git",
+        "type": "git",
+        "branch": "master"
+    }, {
+        "guid": "sample-v3-car-service-bookings-data",
+        "url": "https://github.com/dirigiblelabs/sample-v3-car-service-bookings-data.git",
+        "type": "git",
+        "branch": "master"
+    }]
+}
